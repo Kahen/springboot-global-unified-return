@@ -80,13 +80,13 @@ hello
 
 返回 错误：
 
-```java
+```json
 {
-        "status":500,
-        "message":"/ by zero",
-        "data":null,
-        "timestamp":1628851951704
-        }
+  "status": 500,
+  "message": "/ by zero",
+  "data": null,
+  "timestamp": 1628851951704
+}
 ```
 
 返回 自定义异常
