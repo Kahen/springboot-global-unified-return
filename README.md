@@ -9,8 +9,8 @@
 ```java
 @GetMapping("/hello")
 public String getStr(){
-        return"hello";
-        }
+    return"hello";
+    }
 ```
 
 此时调用接口获取到的返回值是这样：
